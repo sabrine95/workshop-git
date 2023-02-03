@@ -1,0 +1,11 @@
+git init 
+Initialized empty Git repository in /Users/user/myproject/.git/
+
+Sometimes, when you make small changes, using the staging environment seems like a waste of time. It is possible to commit changes directly, skipping the staging environment. The -a option will automatically stage every changed, already tracked file.
+git commit -a -m "New line added"
+To view the history of commits for a repository, you can use the log command:
+
+Create, and move to a new branch with the name hello-you:
+
+
+git checkout -b hello-you
